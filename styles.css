@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+}
+
+#game-container {
+    position: relative;
+}
+
+canvas {
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo transparente */
+}
+
+#controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
